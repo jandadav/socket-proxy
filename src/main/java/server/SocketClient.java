@@ -13,7 +13,7 @@ public class SocketClient {
 
     public static void main(String[] args) {
         String hostname = "localhost";
-        int port = 9090;
+        int port = 9010;
  
         try (Socket socket = new Socket(hostname, port)) {
 

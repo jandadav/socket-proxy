@@ -165,7 +165,7 @@ public class ClassFileServer extends ClassServer {
                 kmf = KeyManagerFactory.getInstance("SunX509");
                 ks = KeyStore.getInstance("JKS");
 
-                ks.load(new FileInputStream("C:\\workspace\\socket-proxy\\keys\\testkeys"), passphrase);
+                ks.load(new FileInputStream("C:\\workspace\\socket-proxy\\keys\\testkeys2"), passphrase);
                 kmf.init(ks, passphrase);
                 ctx.init(kmf.getKeyManagers(), null, null);
 
